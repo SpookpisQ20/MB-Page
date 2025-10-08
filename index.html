@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modell Brokerage - Your Trusted Partner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #1a2332;
+            background: #e8e4dc;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 2px;
+            box-shadow: 0 10px 40px rgba(26, 35, 50, 0.15);
+            max-width: 600px;
+            width: 100%;
+            padding: 60px 40px;
+            text-align: center;
+            border: 1px solid #d4cfc5;
+        }
+
+        .logo {
+            margin-bottom: 10px;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            color: #6b6b6b;
+            margin-bottom: 40px;
+            font-weight: 300;
+            font-style: italic;
+            letter-spacing: 0.02em;
+        }
+
+        .divider {
+            width: 80px;
+            height: 1px;
+            background: #1a2332;
+            margin: 30px auto;
+            border-radius: 0;
+        }
+
+        .contact-section {
+            margin-top: 40px;
+        }
+
+        .contact-title {
+            font-size: 1.2rem;
+            color: #1a2332;
+            margin-bottom: 25px;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-family: 'Georgia', 'Times New Roman', serif;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            margin: 12px 0;
+            background: #fafaf8;
+            border-radius: 0;
+            transition: all 0.3s ease;
+            border: 1px solid #e8e4dc;
+        }
+
+        .contact-item:hover {
+            background: #f5f3ef;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(26, 35, 50, 0.08);
+            border-color: #1a2332;
+        }
+
+        .contact-label {
+            font-weight: 400;
+            color: #1a2332;
+            min-width: 70px;
+            text-align: right;
+            margin-right: 15px;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .contact-value {
+            color: #1a2332;
+            font-size: 1.05rem;
+            letter-spacing: 0.02em;
+        }
+
+        .contact-value a {
+            color: #1a2332;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-value a:hover {
+            color: #4a5568;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+            }
+
+            .logo {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .contact-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .contact-label {
+                text-align: center;
+                margin-right: 0;
+                margin-bottom: 5px;
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Modell Brokerage">
+        </div>
+        <p class="tagline">Your Trusted Partner in Professional Service</p>
+        
+        <div class="divider"></div>
+        
+        <div class="contact-section">
+            <h2 class="contact-title">Get In Touch</h2>
+            
+            <div class="contact-item">
+                <span class="contact-label">Work</span>
+                <span class="contact-value"><a href="tel:1-800-611-7418">1-800-611-7418</a></span>
+            </div>
+            
+            <div class="contact-item">
+                <span class="contact-label">Cell</span>
+                <span class="contact-value"><a href="tel:610-955-4156">610-955-4156</a></span>
+            </div>
+            
+            <div class="contact-item">
+                <span class="contact-label">Fax</span>
+                <span class="contact-value">610-680-3674</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
